@@ -1,0 +1,1131 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  transition-property: scroll;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-family: 'Poppins';
+  font-weight: 300;
+  opacity: 100%;
+}
+
+.nav-item:hover {
+  background-color: #f9e9e9;
+}
+
+/* landing */
+
+.landing .carousel-inner {
+  position: relative;
+  padding-top: 3%;
+}
+
+.carousel-caption {
+  text-align: right;
+}
+
+.landing-content {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+
+.landing-content p {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #ffffff;
+  text-align: right;
+  text-shadow: 2px 2px 0 black;
+}
+
+.btn_type_1 {
+  width: auto;
+  height: 46px;
+  padding: 8px 19px 8px 19px;
+  border-radius: 8px;
+  background-color: #E5E5E6;
+  border: none;
+}
+
+.btn_type_1 a {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  text-decoration: underline;
+}
+
+.btn_type_1:hover {
+  filter: invert(1);
+  transition: ease-in 0.3s;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #FA4040;
+}
+
+/* About Me section */
+
+.about-me {
+  width: 100%;
+  height: 100%;
+  background-image: url(about_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading {
+  font-family: 'Poppins';
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 78.62px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.about-row2,
+.about-row1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row1-img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.para1-img {
+  width: 100%;
+  padding: 0 3%;
+  margin-left: 16%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+.about-para-2,
+.about-para-1 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 3%;
+  padding: 0 4%;
+  line-height: 40px;
+}
+
+.about-para-1 {
+  width: 60%;
+  align-content: center;
+}
+
+.btn_type_2 {
+  background: #4D4DFB;
+  width: max-content;
+  padding: 8px 19px 8px 19px;
+  border-radius: 8px;
+  border: none;
+  align-self: center;
+  margin: 4%;
+  margin-top: 0;
+}
+
+.btn_type_2 a {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.btn_type_2:hover {
+  filter: invert(1);
+  transition: ease-in 0.3s;
+}
+
+/* research  */
+
+.research-container {
+  width: 100%;
+  height: 100%;
+  background-image: url(Research_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-heading {
+  font-family: 'Poppins';
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 78.62px;
+  text-align: center;
+  /* margin-left: 3%; */
+  margin-top: 2%;
+}
+
+.research-content {
+  display: flex;
+}
+
+.research-img {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 4%;
+}
+
+.research-img img {
+  width: auto;
+  margin: 4% 0;
+
+}
+
+.research-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 3%; */
+  justify-content: space-around;
+}
+
+
+.research-subhead h3 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  text-align: left;
+  margin-top: 3%;
+  font-size: 30px;
+}
+
+.research-subhead ul li {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  line-height: 45px;
+  text-align: justify;
+  font-size: 21px;
+  margin-right: 10%;
+
+}
+
+/* awards section  */
+
+.awards-container {
+  background-color: #DBDBDB;
+  height: 100%;
+}
+
+.award-container-inner {
+  display: flex;
+  height: max-content;
+}
+
+.medal-image {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  z-index: 2;
+}
+
+.awards-container h1 {
+  padding: 2% 0;
+  margin-top: -4%;
+  font-weight: 700;
+  font-size: 52px;
+  align-self: center;
+  width: 60%;
+  z-index: 2;
+}
+
+#awards .carousel {
+  top: -60px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  width: 16%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 25%;
+  width: 25%;
+  opacity: 1;
+}
+
+.awards_btn {
+  margin: 0 47%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
+}
+
+/* blogs section  */
+
+.blogs-container {
+  background-image: url('blog_page_bg_masked.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-heading {
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1% 0;
+  margin-left: 4%;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 52px;
+}
+
+.yt-links {
+  padding-bottom: 5%;
+}
+
+iframe {
+  width: 413px;
+  height: 232px;
+  padding: 1%;
+}
+
+.blogs-btn {
+  position: relative;
+  margin-bottom: 2%;
+}
+
+/* .blogs-container .card-carousel {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto;
+  margin: 2%;
+  scrollbar-width: none;
+}
+
+.card-carousel .card {
+  position: relative;
+  min-width: 419px;
+  overflow: hidden;
+  border-radius: 40px;
+  margin: 2%;
+  width: 80%;
+}
+
+.card-img-top {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: auto;
+}
+
+.card-body {
+  background-image: url(blog_des_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-bottom: 1%;
+}
+
+.card-title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.card-text {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
+
+
+/* Footer Section */
+.footer-body {
+  background-color: #e5e5e6;
+  height: fit-content;
+  background-size: contain;
+}
+
+.footer {
+  margin: 0 5%;
+}
+
+
+.foothead {
+  font-family: 'Lato';
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 4%;
+  color: black;
+}
+
+.footer hr {
+  border: 1.6px solid !important;
+  color: #000;
+  opacity: 1;
+}
+
+.footerbody {
+  display: flex;
+  flex-direction: row;
+}
+
+.footernav {
+  width: 30%;
+}
+
+.footernav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footernav ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.footernav li a {
+  font-size: 20px;
+  font-weight: 550;
+  text-decoration: none;
+  color: #131215;
+  padding: 4px 0;
+}
+
+.footernav li a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  width: 70%;
+  margin-top: 0%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-btn {
+  padding: 1% 5%;
+}
+
+.follow {
+  display: flex;
+  /* margin-top: 4%; */
+
+  color: black;
+}
+
+.follow_us {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.follow ul {
+  list-style-type: none;
+}
+
+.follow ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2% 0;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+.follow ul li a {
+  text-decoration: none;
+  color: #000;
+  /* padding: 0 8%; */
+}
+
+.follow ul li img {
+  margin-right: 4%;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin-top: 4%;
+}
+
+.footlogo {
+  height: 32px;
+  width: 32px;
+}
+
+.footer-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #363436;
+  padding: 0 2%;
+  font-weight: 600;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #363436;
+  font-weight: bold;
+  /* padding-bottom: 3%; */
+}
+
+.copy img {
+  margin-right: 2%;
+}
+
+.klique-footer {
+  font-size: 20px;
+  color: #363436;
+  font-weight: bold;
+  padding-bottom: 5%;
+  margin-bottom: 0;
+}
+
+.klique-link {
+  text-decoration: underline;
+  color: #363436;
+}
+
+/* media queries  */
+
+/* General adjustments for smaller screens */
+@media (max-width: 1024px) {
+  .landing-content p {
+    font-size: 42px;
+    /* Adjust font size for landing content */
+  }
+
+  .about-heading,
+  .research-heading,
+  .awards-container h1,
+  .blog-heading {
+    font-size: 36px;
+  }
+
+  .about-para-1 {
+    width: 100%;
+  }
+
+  .about-row1 {
+    flex-direction: column;
+  }
+
+  .about-para-1,
+  .about-para-2 {
+    font-size: 18px;
+  }
+
+  .research-subhead ul li {
+    line-height: 34px;
+    font-size: 18px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  /* Specific styles for small laptops here */
+  .landing-content {
+    top: 5%;
+  }
+
+  .about-row1,
+  .about-row2 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .row1-img {
+    width: 50%;
+  }
+
+  .about-para-1,
+  .about-para-2 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  .about-para-1 {
+    margin-left: 3%;
+  }
+
+  .about-row2 {
+    margin-top: 4%;
+  }
+
+  .research-content {
+    flex-direction: row;
+  }
+
+  .award-container-inner {
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 505px) {
+
+  /* Specific styles for tablets here */
+  .about-heading,
+  .research-heading,
+  .awards-container h1,
+  .blog-heading {
+    font-size: 36px;
+  }
+
+  .landing {
+    padding-top: 3%;
+  }
+
+  .landing-content {
+    top: 25%;
+    /* Adjust content position */
+  }
+
+  .landing-content p {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  .landing-content {
+    position: absolute;
+    top: 0px;
+  }
+
+  .btn_type_1 a,
+  .btn_type_2 a {
+    font-size: 17px;
+  }
+
+  .btn_type_1,
+  .btn_type_2 {
+
+    height: 40px;
+    padding: 5px 7px 7px 7px;
+  }
+
+  .d-none {
+    display: block;
+  }
+
+  .about-img img {
+    width: 80%;
+  }
+
+  .about-para-1,
+  .about-para-2 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .research-img img {
+    margin: 10% 0;
+  }
+
+  .research-heading {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .research-subhead ul li {
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  .research-subhead h3 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .medal-image {
+    display: none;
+  }
+
+  .award-container-inner h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  #awards .carousel {
+    top: 0;
+  }
+
+  .blog-heading {
+    margin-top: -47px;
+  }
+
+  .card-carousel .card {
+    min-width: 206px;
+    max-height: 281px;
+  }
+
+  .card-img-top {
+    height: 70%;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .foothead {
+    font-size: 22px;
+  }
+
+  .footernav li a {
+    font-size: 17px;
+  }
+
+  .follow {
+    flex-direction: column;
+  }
+
+  .follow_us {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 2rem;
+  }
+
+  .follow ul li {
+    font-size: 14px;
+  }
+
+  .copy {
+    padding-top: 5%;
+    font-size: 18px;
+  }
+
+  .copy img {
+    width: 7%;
+  }
+
+  .klique-footer {
+    font-size: 18px;
+  }
+
+  .footernav,
+  .socials {
+    width: 100%;
+    /* Make footer sections full width */
+    margin: 0 auto;
+    /* Center footer sections */
+  }
+}
+
+@media (max-width: 505px) and (min-width: 375px) {
+
+  /* Specific styles for large mobiles here */
+  .about-heading,
+  .research-heading,
+  .awards-container h1,
+  .blog-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .landing {
+    padding-top: 7%;
+  }
+
+  .landing-content {
+    top: 7%;
+  }
+
+  .landing-content p {
+    font-size: 28px;
+    line-height: 25px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+  }
+
+  .btn_type_1,
+  .btn_type_2 {
+    height: 35px;
+    padding: 3px 7px 7px 7px;
+  }
+
+  .btn_type_1 a,
+  .btn_type_2 a {
+    font-size: 15px;
+  }
+
+  .para1-img {
+    display: none;
+  }
+
+  .about-para-1,
+  .about-para-2 {
+    margin: 0;
+  }
+
+  .about-para-1 p,
+  .about-para-2 p,
+  .research-text,
+  .card-text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .research-subhead h3 {
+    font-size: 22px;
+  }
+
+  .research-subhead ul li {
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  .research-img img {
+    margin: 80% 0;
+  }
+  .research-img{
+    margin: 0 4%;
+  }
+  .medal-image {
+    display: none;
+  }
+
+  .award-container-inner h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  #awards .carousel {
+    top: 0;
+  }
+
+  .blogs-container {
+    margin-top: -35px;
+  }
+
+  .card-carousel .card {
+    min-width: 206px;
+    max-height: 281px;
+    margin: 5%;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    visibility: hidden;
+  }
+
+  .yt-links {
+    padding: 8% 0;
+  }
+
+  iframe {
+    width: 320px;
+    height: 200px;
+  }
+
+  .ytp-title-text {
+    font-size: 14px;
+  }
+
+  .footer-body {
+    position: relative;
+  }
+
+  .foothead {
+    font-size: 24px;
+  }
+
+  .footer hr {
+    border: 1.5px solid !important;
+  }
+
+  .footerbody {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footernav,
+  .socials {
+    width: 100%;
+  }
+
+  .footernav li a {
+    font-size: 18px;
+  }
+
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .follow {
+    padding: 3% 0;
+  }
+
+  .follow_us {
+    font-size: 18px;
+  }
+
+  .follow ul li {
+    font-size: 14px;
+  }
+
+  .copy img {
+    width: 30px;
+  }
+
+  .copy,
+  .klique-footer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  /* Specific styles for small mobiles here */
+  .navbar-brand {
+    font-size: 14px;
+  }
+
+  .navbar-toggler {
+    padding: 1px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .about-heading,
+  .research-heading,
+  .awards-container h1,
+  .blog-heading {
+    font-size: 22px;
+  }
+
+  .landing {
+    padding-top: 9%;
+  }
+
+  .landing-content {
+    top: 7%;
+  }
+
+  .landing-content p {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+  }
+
+  .btn_type_1,
+  .btn_type_2 {
+    height: 35px;
+    padding: 3px 7px 7px 7px;
+  }
+
+  .btn_type_1 a,
+  .btn_type_2 a {
+    font-size: 15px;
+  }
+
+  .about-para-1 p,
+  .about-para-2 p,
+  .research-text,
+  .card-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .para1-img {
+    display: none;
+  }
+
+  .about-para-1,
+  .about-para-2 {
+    margin: 0;
+  }
+
+  .research-img {
+    width: 0;
+  }
+
+  .research-text {
+    width: 100%;
+  }
+
+  .research-subhead h3 {
+    font-size: 18px;
+  }
+
+  .research-img img {
+    visibility: hidden;
+  }
+
+  .research-subhead ul li {
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  .medal-image {
+    display: none;
+  }
+
+  .awards-container h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  #awards .carousel {
+    top: 0;
+  }
+
+  .blogs-container {
+    margin-top: -35px;
+  }
+
+  .awards_btn {
+    margin: 0;
+    bottom: 45px;
+  }
+
+  .card-carousel .card {
+    min-width: 206px;
+    max-height: 281px;
+    margin: 5%;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    visibility: hidden;
+  }
+
+  .yt-links {
+    padding: 8% 0;
+  }
+
+  iframe {
+    width: 285px;
+    height: 150px;
+    margin: 2% 0;
+  }
+
+  .ytp-title-text {
+    font-size: 14px;
+  }
+
+  .footer-body {
+    position: relative;
+  }
+
+  .foothead {
+    font-size: 20px;
+  }
+
+  .footer hr {
+    border: 1.5px solid !important;
+  }
+
+  .footerbody {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footernav,
+  .socials {
+    width: 100%;
+  }
+
+  .footernav li a {
+    font-size: 14px;
+  }
+
+  .follow {
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .follow_us {
+    font-size: 16px;
+    font-weight: 650;
+  }
+
+  .footlogo {
+    height: 26px;
+    width: 26px;
+  }
+
+  .follow ul li {
+    font-size: 14px;
+  }
+
+  .copy img {
+    width: 30px;
+  }
+
+  .copy,
+  .klique-footer {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,538 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    transition-property: scroll;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.nav-item:hover {
+    background-color: #f9e9e9;
+}
+
+/* landing */
+
+.landing{
+    padding-top: 4%;
+}
+.land-img{
+    width: 100%;
+}
+
+/* about  */
+
+.about {
+    background-image: url(memoir_bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+}
+
+.about h1,
+h3 {
+    font-family: 'Poppins';
+    padding: 2% 4%;
+    font-weight: 600;
+}
+
+.about_para {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 3% 4%;
+    text-align: justify;
+}
+
+.content2,
+.content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para2,
+.para4 {
+    width: 70%;
+}
+
+.para2-img {
+    width: 30%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    margin: 0 4%;
+}
+
+.para4-img {
+    width: 30%;
+    margin: 0 4%;
+}
+
+.para4-img img,
+.para2-img img {
+    /* width: 40%; */
+    /* height: 350px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 3%; */
+}
+
+.about ul {
+    margin-left: 4%;
+    padding: 1%;
+}
+
+.about ul li {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+
+/* footer  */
+
+.footer-body {
+    background-color: #e5e5e6;
+    height: fit-content;
+    background-size: contain;
+  }
+  
+  .footer {
+    margin: 0 5%;
+  }
+  
+  
+  .foothead {
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 4%;
+    color: black;
+  }
+  
+  .footer hr {
+    border: 1.6px solid !important;
+    color: #000;
+    opacity: 1;
+  }
+  
+  .footerbody {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footernav {
+    width: 30%;
+  }
+  
+  .footernav ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footernav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footernav li a {
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #131215;
+    padding: 4px 0;
+  }
+  
+  .footernav li a:hover {
+    text-decoration: underline;
+  }
+  
+  .socials {
+    width: 70%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-btn {
+    padding: 1% 5%;
+  }
+  
+  .follow {
+    display: flex;
+    /* margin-top: 4%; */
+   
+    color: black;
+  }
+  .follow_us{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .follow ul {
+    list-style-type: none;
+  }
+  
+  .follow ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0;
+    font-size: 16px;
+    font-family: 'Montserrat';
+  }
+  
+  .follow ul li a {
+    text-decoration: none;
+    color: #000;
+    /* padding: 0 8%; */
+  }
+  .follow ul li img{
+    margin-right: 4%;
+  }
+  .footer-list {
+    list-style-type: none;
+    margin-top: 4%;
+  }
+  
+  .footlogo {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .footer-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-list li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #363436;
+    padding: 0 2%;
+    font-weight: 600;
+  }
+  
+  .copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #363436;
+    font-weight: bold;
+    /* padding-bottom: 3%; */
+  }
+  
+  .copy img {
+    margin-right: 2%;
+  }
+  
+  .klique-footer {
+    font-size: 20px;
+    color: #363436;
+    font-weight: bold;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+  }
+  
+  .klique-link {
+    text-decoration: underline;
+    color: #363436;
+  }
+
+/* media queries */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .about_para {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .about ul li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 505px) {
+    .about h1 {
+        font-size: 26px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+
+    .about_para {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .about ul li {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+    }
+
+    .para2,
+    .para4 {
+        width: 92%;
+    }
+
+    .content4 {
+        flex-direction: column;
+    }
+
+    .para2-img,
+    .para4-img {
+        width: 40%;
+    }
+
+    .foothead {
+        font-size: 22px;
+      }
+    
+      .footernav li a {
+        font-size: 17px;
+      }
+      .follow{
+        flex-direction: column;
+      }
+      .follow_us {
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 2rem;
+      }
+      .follow ul li{
+        font-size: 14px;
+      }
+      .copy {
+        padding-top: 5%;
+        font-size: 18px;
+      }
+    
+      .copy img {
+        width: 7%;
+      }
+    
+      .klique-footer {
+        font-size: 18px;
+      }
+    
+      .footernav,
+      .socials {
+        width: 100%;
+        /* Make footer sections full width */
+        margin: 0 auto;
+        /* Center footer sections */
+      }
+}
+
+@media (max-width: 505px) and (min-width: 375px) {
+    .about h1 {
+        font-size: 22px;
+    }
+
+    .about h3 {
+        font-size: 20px;
+    }
+
+    .about_para {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .about ul li {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 0 3%;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+    }
+
+    .para2,
+    .para4 {
+        width: 92%;
+    }
+
+    .content4 {
+        flex-direction: column;
+    }
+
+    .para2-img,
+    .para4-img {
+        width: 40%;
+    }
+
+    .footer-body {
+        position: relative;
+      }
+    
+      .foothead {
+        font-size: 24px;
+      }
+    
+      .footer hr {
+        border: 1.5px solid !important;
+      }
+    
+      .footerbody {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footernav,
+      .socials {
+        width: 100%;
+      }
+    
+      .footernav li a {
+        font-size: 18px;
+      }
+      .socials{
+        justify-content: flex-start;
+      }
+      .follow{
+        padding: 3% 0;
+      }
+      .follow_us{
+        font-size: 18px;
+      }
+      .follow ul li{
+        font-size: 14px;
+      }
+    
+      .copy img {
+        width: 30px;
+      }
+    
+      .copy,
+      .klique-footer {
+        font-size: 16px;
+      }
+}
+
+@media (max-width: 375px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    .navbar-toggler {
+        padding: 2px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .about h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .about h3 {
+        font-size: 16px;
+    }
+
+    .about_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .about ul li {
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 4%;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+    }
+
+    .para2,
+    .para4 {
+        width: 92%;
+    }
+
+    .content4 {
+        flex-direction: column;
+    }
+
+    .para2-img,
+    .para4-img {
+        width: 40%;
+    }
+
+    .footer-body {
+        position: relative;
+      }
+    
+      .foothead {
+        font-size: 20px;
+      }
+    
+      .footer hr {
+        border: 1.5px solid !important;
+      }
+    
+      .footerbody {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footernav,
+      .socials {
+        width: 100%;
+      }
+      .footernav li a {
+        font-size: 14px;
+      }
+    
+      .follow {
+        font-size: 18px;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .follow_us{
+        font-size: 16px;
+        font-weight: 650;
+      }
+      .footlogo{
+        height: 26px;
+        width: 26px;
+      }
+      .follow ul li{
+        font-size: 14px;
+      }
+      .copy img {
+        width: 30px;
+      }
+    
+      .copy,
+      .klique-footer {
+        font-size: 14px;
+      }
+}
