@@ -49,11 +49,9 @@
     opacity: 1;
 }
 
-.list-head {
-    font-family: 'Poppins';
-    font-size: 40px;
-    margin: 3%;
-    text-align: left;
+.award-section{
+  display: flex;
+  flex-direction: row;
 }
 
 .awards-list {
@@ -69,8 +67,26 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 45px;
+    text-align: justify;
+}
+.list-head {
+  font-family: 'Poppins';
+  font-size: 40px;
+  margin: 3%;
+  text-align: left;
 }
 
+.awards_img{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 4%;
+}
+.awards_img img{
+  width: 100%;
+}
 /* Footer Section */
 .footer-body {
     background-color: #e5e5e6;
@@ -240,7 +256,7 @@
 
 @media (max-width: 768px) and (min-width: 505px) {
     .awards-heading {
-        font-size: 36px;
+        font-size: 34px;
         padding-top: 9%;
     }
 
@@ -251,6 +267,10 @@
     .awards-list li {
         font-size: 16px;
         line-height: 40px;
+    }
+    .awards_img{
+      width: 60%;
+      justify-content: space-around;
     }
 
     .foothead {
@@ -287,9 +307,7 @@
       .footernav,
       .socials {
         width: 100%;
-        /* Make footer sections full width */
         margin: 0 auto;
-        /* Center footer sections */
       }
 }
 
@@ -307,7 +325,9 @@
         font-size: 14px;
         line-height: 32px;
     }
-
+    .awards_img{
+      display: none;
+    }
     .footer-body {
         position: relative;
       }
@@ -381,6 +401,9 @@
     .awards-list li {
         font-size: 12px;
         line-height: 25px;
+    }
+    .awards_img{
+      display: none;
     }
 
     .footer-body {

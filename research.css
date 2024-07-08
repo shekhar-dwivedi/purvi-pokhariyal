@@ -64,6 +64,28 @@
     justify-content: space-around;
 }
 
+.nfsu_img img{
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.research-list-heading{
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 34px;
+}
+.research-work{
+  display: flex;
+  flex-direction: row;
+}
+.research-gallery{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-evenly;
+  margin-left: 2%;
+}
 .research-heading {
     font-family: 'Poppins';
     font-size: 48px;
@@ -107,13 +129,6 @@
     margin: 4%;
 }
 
-.research-list h1 {
-    font-family: "Poppins";
-    font-weight: 500;
-    margin-bottom: 3%;
-    font-size: 34px;
-}
-
 .research-list ul {
     margin-left: 4%;
     padding: 1%;
@@ -125,6 +140,7 @@
     font-weight: 500;
     line-height: 45px;
     padding: 1% 0;
+    text-align: justify;
 }
 
 /* Footer Section */
@@ -285,19 +301,19 @@
     .research-img img {
         margin: 10% 0;
     }
-    .research-heading, .research-list h1  {
+    .research-heading, .research-list-heading  {
         font-family: 'Poppins';
         font-size: 34px;
         font-weight: 600;
         line-height: 40px;
         padding-top: 4%;
-
     }
 
     .research-subhead ul li,
     .research-list ul li {
-        line-height: 30px;
+        line-height: 32px;
         font-size: 18px;
+        margin-bottom: 1%;
     }
 
     .research-subhead h3 {
@@ -346,21 +362,25 @@
 }
 
 @media (max-width: 505px) and (min-width: 375px) {
-    .research-heading, .research-list h1  {
+    .research-heading, .research-list-heading  {
         font-size: 30px;
         line-height: 30px;
         padding-top: 8%;
     }
+    .research-gallery{
+      display: none;
+    }
+
     .research-subhead h3{
         font-size: 24px;
     }
     .research-subhead ul li, .research-list ul li {
-        line-height: 22px;
+        line-height: 24px;
         font-size: 14px;
+        margin-bottom: 2%;
     }
 
     .research-img img {
-        /* margin: 80% 0; */
         display: none;
     }
     .research-img {
@@ -432,11 +452,13 @@
         font-size: 14px;
     }
 
-    .research-heading, .research-list h1 {
+    .research-heading, .research-list-heading {
         font-size: 24px;
         padding-top: 6%;
     }
-
+    .research-gallery{
+      display: none;
+    }
     .research-text{
         font-size: 14px;
         line-height: 20px;
@@ -461,6 +483,7 @@
     .research-subhead ul li, .research-list ul li {
         line-height: 22px;
         font-size: 14px;
+        margin-bottom: 1%;
     }
 
     .footer-body {
