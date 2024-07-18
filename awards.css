@@ -87,6 +87,11 @@
 .awards_img img{
   width: 100%;
 }
+.spl-distinct,.global,.corporate,.admin{
+  background-color: #343434;
+  color: #ffff;
+  padding: 1%;
+}
 /* Footer Section */
 .footer-body {
     background-color: #e5e5e6;

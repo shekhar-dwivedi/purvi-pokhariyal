@@ -84,7 +84,7 @@
 .about-me {
   width: 100%;
   height: 100%;
-  background-image: url(about_bg.png);
+  background-color: #ffff;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -169,11 +169,12 @@
 .research-container {
   width: 100%;
   height: 100%;
-  background-image: url(Research_bg.png);
+  background-color: #343434;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
+  color: #ffffff;
 }
 
 .research-heading {
@@ -289,7 +290,7 @@
 .blogs-container {
   background-image: url('blog_page_bg_masked.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:round;
 }
 
 .blog-heading {
@@ -834,9 +835,11 @@ iframe {
   .research-img img {
     margin: 80% 0;
   }
-  .research-img{
+
+  .research-img {
     margin: 0 4%;
   }
+
   .medal-image {
     display: none;
   }
